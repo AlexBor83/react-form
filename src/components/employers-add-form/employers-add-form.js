@@ -21,7 +21,7 @@ class EmployeesAddForm extends Component {
     //console.log('add')
 
     if(this.state.name < 3 || !this.state.salary) {
-      alert('Введите')
+      alert('Введите данные')
       return
     }
 
